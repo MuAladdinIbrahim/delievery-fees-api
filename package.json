@@ -1,0 +1,20 @@
+{
+  "name": "delievery-fees-api",
+  "version": "1.0.0",
+  "description": "calculate delivery fees",
+  "main": "index.js",
+  "author": "Mu Aladdin Ibrahim",
+  "license": "MIT",
+  "devDependencies": {
+    "gts": "^3.1.0",
+    "typescript": "^4.0.3",
+    "@types/node": "^14.11.2"
+  },
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "start": "node ./build/index.js"
+  }
+}
