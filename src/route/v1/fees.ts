@@ -1,5 +1,5 @@
 import Router, {NextFunction, Request, Response} from 'express';
-import {calculateFees} from '../../service/Fees/calculateFees';
+import {calculateFees} from '../../controller/Fees/calculateFees';
 import parseFeesRequest from '../../helpers/parseFeesRequest';
 import {Params, StrategyFn} from '../../Abstracts/types';
 const router = Router();
